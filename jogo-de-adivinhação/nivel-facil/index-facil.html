@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinhação - Fácil</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles-facil.css">
+</head>
+
+<div>
+    <div class="conteudo">
+
+        <h1>Nível <span>Fácil</span></h1>
+
+        <p>Neste Nível,você vai digitar algum número de 1(um) a 10(dez),e terá 3 (três) tentativas de acertar o
+            número aleatório.<br>Boa sorte!</p>
+
+        <h2>tente adivinhar <br>↓ o número ↓</h2>
+
+    </div>
+
+    <div class="painel">
+
+        <div class="input-group">
+
+            <input type="number" id="palpite" placeholder="Digite seu palpite" min="1" max="10" required>
+
+            <button id="reiniciar" style="display:none;">Reiniciar</button>
+
+        </div>
+
+        <p id="tentativas" class="p3"></p>
+        <p id="resultado" class="p2"></p>
+
+        <a href="../menu/index-menu-adivinhacao.html">
+            <button class="botao-1" id="next-level">Ir para o Menu</button>
+        </a>
+
+    </div>
+
+    <img class="imagen" src="../assents/unnamed.png">
+
+
+    </body>
+
+    <script src="scripts-facil.js"></script>
+
+</html>

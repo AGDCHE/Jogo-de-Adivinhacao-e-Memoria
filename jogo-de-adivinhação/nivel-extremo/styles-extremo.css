@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background: #03032b;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    width: auto;
+    position: relative;
+    margin: 20px auto;
+}
+
+h2 {
+    text-align: center;
+    margin: 0 auto 20px;
+    width: auto;
+    position: relative;
+}
+
+p {
+    width: 340px;
+    position: relative;
+    margin: 0 auto 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+button {
+    position: relative;
+    left: 190px;
+    top: -21px;
+    width: 100px;
+    border-radius: 5px;
+    color: #fff;
+    background: #070729;
+    border: 2px solid #007eff;
+    cursor: pointer;
+}
+
+
+span {
+    color: #771e75;
+}
+
+input {
+    color: #ffffff;
+    background: #070729;
+    border: 2px solid #007eff;
+    border-radius: 5px;
+    position: relative;
+    margin-left: 20px;
+    padding-left: 5px;
+    width: 126px;
+}
+
+input::placeholder {
+    color: #ffffff;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.imagen {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.painel {
+    width: 350px;
+    height: 267px;
+    position: relative;
+    margin: 0 auto;
+    padding: 20px;
+    background: #040418;
+    border: 5px solid #007eff;
+    border-radius: 15px;
+}
+
+.botao-4 {
+    position: relative;
+    margin: 0 auto 0 auto;
+    top: 0px;
+    left: 0px;
+    cursor: pointer;
+    color: #fff;
+    background: #040418;
+    border: 2px solid #007eff;
+    display: none;
+}
+
+.botao-4:active {
+    background: #007eff;
+}
+
+.p2 {
+    /* acertou ou errou*/
+    width: 290px;
+    position: relative;
+    margin: 0 auto 20px;
+    top: 0;
+    left: 0;
+}
+
+.p3 {
+    /* tentativas */
+    width: 220px;
+    position: relative;
+    margin: 20px auto;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 515px) {
+
+    p {
+        width: auto;
+    }
+
+}
+
+@media screen and (max-width: 365px) {
+
+    h2 {
+        width: auto;
+    }
+
+    .painel {
+        width: auto;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+
+    h1 {
+        margin-left: 10px;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+
+    h1 {
+        margin-left: 25px;
+    }
+
+}

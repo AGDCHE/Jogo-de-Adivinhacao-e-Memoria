@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Memória - Médio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles-medio.css">
+</head>
+
+<body>
+
+<img class="logo" src="./assents/pngtree-human-brain-illustration-on-dark-blue-background-medical-and-scientific-concepts-image_17290144.jpg" alt="Ilustração do cérebro humano">
+
+    <h1>Nível <span>Médio</span></h1>
+
+    <p>você terá 10 tentativas de acertar as cartas semelhantes,boa sorte!</p>
+
+    <div class="painel">
+
+        <div id="list">
+            <!-- Cartas serão inseridas aqui via JavaScript -->
+        </div>
+
+    </div>
+
+    <p class="remaining-attempt"></p>
+
+<p class="result"></p>
+
+    <button class="button-start" onclick="createCards()">Iniciar</button>
+    <button class="button-restart">Reiniciar</button>
+    <a href="../menu/index-menu-memoria.html">
+        <button class="button-next-level">Ir para o Menu</button>
+    </a>
+   
+</body>
+<script src="cards.js"></script>
+<script src="script-medio.js"></script>
+
+</html>

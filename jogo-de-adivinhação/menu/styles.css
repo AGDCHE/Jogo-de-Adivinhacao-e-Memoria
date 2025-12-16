@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background: #03032b;
+    color: #ffffff;
+}
+
+.caixa-texto {
+    margin: 16px;
+}
+
+h1 {
+    position: relative;
+    margin: 20px auto;
+    width: 325px;
+    text-align: center;
+}
+
+p {
+    position: relative;
+    margin: 0 auto 20px auto;
+    width: 420px;
+    text-align: center;
+    font-weight: 600;
+}
+
+h2 {
+    text-align: center;
+    position: relative;
+    margin: 0 auto 20px auto;
+    width: auto;
+}
+
+button {
+    width: 125px;
+    height: 50px;
+    position: relative;
+    margin: 20px auto 0 auto;
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.botao1 {
+    background: #00ff00;
+}
+
+.botao1:active {
+    background: #075305;
+}
+
+.botao2 {
+    background: #fcff00;
+}
+
+.botao2:active {
+    background: #768000;
+}
+
+.botao3 {
+    background: #ff0000;
+}
+
+.botao3:active {
+    background: #950000;
+}
+
+.botao4 {
+    background: #771e75;
+}
+
+.botao4:active {
+    background: #450f3d;
+}
+
+.img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+@media screen and (max-width: 500px) {
+
+    p {
+        width: auto;
+    }
+
+}
+
+@media screen and (max-width: 440px) {
+
+    h1 {
+        width: 200px;
+    }
+
+}
+
+@media screen and (max-width: 391px) {
+
+    h2 {
+        width: auto;
+        text-align: center;
+    }
+
+}
